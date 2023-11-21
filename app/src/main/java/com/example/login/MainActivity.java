@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registrer);
+        setContentView(R.layout.activity_main);
 /*
         met_usuario=(EditText) findViewById(R.id.cat_usuario);
         met_password=(EditText) findViewById(R.id.cat_password);*/
@@ -39,4 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }*/
+
+
 }
