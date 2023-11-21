@@ -41,5 +41,12 @@
             android:onClick="Entrar"
             android:text="Entrar"
             android:textSize="34dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Siguiente"
+            android:text="Button" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
