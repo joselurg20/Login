@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title">Log in</string>
+    <string name="subtitle">Log in with your account</string>
+    <string name="titleUserField">User</string>
+    <string name="editTextUsername">User name</string>
+    <string name="titlePasswd">Password</string>
+    <string name="linkPasswd">Forgotten password?</string>
+    <string name="editTextPassword">Password</string>
+    <string name="buttonLogin">Log in</string>
+    <string name="titleButtonRegister">Don\'t have an account?</string>
+    <string name="buttonRegister">Register</string>
+</resources>
