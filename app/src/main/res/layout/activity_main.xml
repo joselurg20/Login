@@ -27,7 +27,7 @@
                 android:id="@+id/Titulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Acceso"
+                android:text="@string/title"
                 android:textColor="#030303"
                 android:textSize="28dp"
                 android:textStyle="bold" />
@@ -36,7 +36,7 @@
                 android:id="@+id/Subtitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Inicia sesión en tu cuenta"
+                android:text="@string/subtitle"
                 android:textColor="#030303" />
 
         </LinearLayout>
@@ -62,7 +62,7 @@
                     android:id="@+id/titleUserField"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Usuario"
+                    android:text="@string/titleUserField"
                     android:textColor="#030303" />
 
                 <LinearLayout
@@ -89,7 +89,7 @@
                         android:background="@drawable/et_style_right"
                         android:backgroundTint="#FFF"
                         android:ems="10"
-                        android:hint="Nombre de usuario"
+                        android:hint="@string/editTextUsername"
                         android:inputType="text"
                         android:padding="10dp"
                         android:shadowRadius="20"
@@ -108,7 +108,7 @@
                         android:id="@+id/titlePasswd"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Contraseña"
+                        android:text="@string/titlePasswd"
                         android:textColor="#030303" />
 
                     <TextView
@@ -117,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="end"
-                        android:text="¿Has olvidado tu contraseña?"
+                        android:text="@string/linkPasswd"
                         android:textColor="#548C82" />
 
                 </LinearLayout>
@@ -139,13 +139,13 @@
                         app:srcCompat="@drawable/icon_key" />
 
                     <EditText
-                        android:id="@+id/editTextTextPassword"
+                        android:id="@+id/editTextPassword"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:background="@drawable/et_style_right"
                         android:backgroundTint="#FFF"
                         android:ems="10"
-                        android:hint="Contraseña"
+                        android:hint="@string/editTextPassword"
                         android:inputType="text"
                         android:padding="10dp"
                         android:shadowRadius="20"
@@ -160,14 +160,14 @@
                     android:layout_height="55dp"
                     android:layout_marginBottom="20dp"
                     android:backgroundTint="#293C40"
-                    android:text="Iniciar sesión"
+                    android:text="@string/buttonLogin"
                     app:cornerRadius="12dp" />
 
                 <TextView
-                    android:id="@+id/titleUserField3"
+                    android:id="@+id/titleButtonRegister"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="¿No tienes una cuenta?"
+                    android:text="@string/titleButtonRegister"
                     android:textColor="#548C82" />
 
                 <Button
@@ -176,7 +176,8 @@
                     android:layout_height="55dp"
                     android:layout_marginBottom="20dp"
                     android:backgroundTint="#293C40"
-                    android:text="Registrarse"
+                    android:onClick="Register"
+                    android:text="@string/buttonRegister"
                     app:cornerRadius="12dp" />
 
             </LinearLayout>

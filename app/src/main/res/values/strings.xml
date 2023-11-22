@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="title">Acceso</string>
+    <string name="subtitle">Inicia sesión en tu cuenta</string>
+    <string name="titleUserField">Usuario</string>
+    <string name="editTextUsername">Nombre de usuario</string>
+    <string name="titlePasswd">Contraseña</string>
+    <string name="linkPasswd">¿Has olvidado tu contraseña?</string>
+    <string name="editTextPassword">Contraseña</string>
+    <string name="buttonLogin">Iniciar sesión</string>
+    <string name="titleButtonRegister">¿No tienes una cuenta?</string>
+    <string name="buttonRegister">Registrarse</string>
 </resources>
