@@ -20,4 +20,7 @@
     <string name="Contraseña">Contraseña</string>
     <string name="Rpcontraseña">Repite la contraseña</string>
     <string name="crearcuenta">Crear Cuenta</string>
+
+    <string name="wellcome">Bienvenido, %s</string>
+
 </resources>
