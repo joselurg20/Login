@@ -10,4 +10,14 @@
     <string name="buttonLogin">Iniciar sesión</string>
     <string name="titleButtonRegister">¿No tienes una cuenta?</string>
     <string name="buttonRegister">Registrarse</string>
+
+
+    <string name="regis">Regístrate</string>
+    <string name="subregis">Crea una cuenta en la aplicación</string>
+    <string name="Nmusuario">Nombre de usuario</string>
+
+    <string name="crelectronico">Correo electronico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Rpcontraseña">Repite la contraseña</string>
+    <string name="crearcuenta">Crear Cuenta</string>
 </resources>
