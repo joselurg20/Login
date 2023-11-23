@@ -21,4 +21,7 @@
     <string name="Contraseña">Password</string>
     <string name="Rpcontraseña">Repeat password</string>
     <string name="crearcuenta">Create account</string>
+
+    <string name="wellcome">Wellcome, %s  </string>
+
 </resources>
