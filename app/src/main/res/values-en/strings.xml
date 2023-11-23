@@ -11,4 +11,14 @@
     <string name="buttonLogin">Log in</string>
     <string name="titleButtonRegister">Don\'t have an account?</string>
     <string name="buttonRegister">Register</string>
+
+
+
+    <string name="regis">Sing in</string>
+    <string name="subregis">Create an account in the app</string>
+    <string name="Nmusuario">User name</string>
+    <string name="crelectronico">Email</string>
+    <string name="Contraseña">Password</string>
+    <string name="Rpcontraseña">Repeat password</string>
+    <string name="crearcuenta">Create account</string>
 </resources>
