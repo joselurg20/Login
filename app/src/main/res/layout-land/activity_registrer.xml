@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D9D8"
+    tools:context=".Registrer">
+
+    <View
+        android:id="@+id/panel"
+        android:layout_width="411dp"
+        android:layout_height="96dp"
+        android:background="#458C82"
+        android:onClick="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regis"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/panel"
+        app:layout_constraintEnd_toEndOf="@+id/panel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/panel"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <TextView
+        android:id="@+id/subregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="@string/subregis"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/panel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/regis" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/panel"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/olaicon" />
+
+    <EditText
+        android:id="@+id/nmusuario"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <EditText
+        android:id="@+id/mt_rpcontraseña"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_contraseña"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/Rpcontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Rpcontraseña"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/mt_rpcontraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_contraseña"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/Nmusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nmusuario"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/nmusuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/panel"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/Contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/Contraseña"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/mt_contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crElectronico"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/mt_contraseña"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crElectronico"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/crelectronico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crelectronico"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/crElectronico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nmusuario"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <EditText
+        android:id="@+id/crElectronico"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nmusuario"
+        app:layout_constraintVertical_bias="0.137" />
+
+
+    <Button
+        android:id="@+id/crearcuenta"
+        android:layout_width="190dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#293C40"
+        android:text="@string/crearcuenta"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_rpcontraseña" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/panel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="@+id/panel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+        app:srcCompat="@drawable/back" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:onClick="volver"
+        android:text="Button"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/panel"
+        app:layout_constraintEnd_toEndOf="@+id/panel"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
