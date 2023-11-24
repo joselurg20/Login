@@ -18,12 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        met_user = findViewById(R.id.editTextUsername);
-        met_password = findViewById(R.id.editTextPassword);
-    }
-
-    public void Translate(View view) {
-        // Implementa la función de traducción si es necesario
+        met_user=findViewById(R.id.editTextUsername);
+        met_password=findViewById(R.id.editTextPassword);
     }
 
     public void Register(View view) {
@@ -41,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (inputUsername.equals(savedUsername) && inputPassword.equals(savedPassword)) {
             Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
-            // Puedes redirigir a la siguiente actividad o realizar otras acciones después del inicio de sesión exitoso
-            Intent i = new Intent(this, MainActivity2.class);
+            Intent i = new Intent(this, HomeActivity.class);
             startActivity(i);
 
         } else {
