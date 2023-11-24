@@ -59,6 +59,7 @@
             <LinearLayout
                 android:layout_width="335dp"
                 android:layout_height="match_parent"
+                android:onClick="Login"
                 android:orientation="vertical">
 
                 <TextView
