@@ -9,7 +9,7 @@
 
     <View
         android:id="@+id/panel"
-        android:layout_width="411dp"
+        android:layout_width="733dp"
         android:layout_height="96dp"
         android:background="#458C82"
         android:onClick="volver"
@@ -54,15 +54,17 @@
         android:layout_height="131dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/panel"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.184"
         app:srcCompat="@drawable/olaicon" />
 
     <EditText
         android:id="@+id/nmusuario"
         android:layout_width="335dp"
         android:layout_height="48dp"
+        android:layout_marginBottom="240dp"
         android:background="@drawable/et_style"
         android:backgroundTint="#FFF"
         android:ems="10"
@@ -71,9 +73,8 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/mt_rpcontraseña"
@@ -87,9 +88,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mt_contraseña"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.659" />
 
     <TextView
         android:id="@+id/Rpcontraseña"
@@ -121,16 +123,15 @@
         android:id="@+id/Contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:layout_marginBottom="55dp"
         android:text="@string/Contraseña"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/mt_contraseña"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/crElectronico"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/mt_contraseña"
@@ -146,7 +147,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/crElectronico"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.19" />
 
     <TextView
         android:id="@+id/crelectronico"
@@ -180,15 +181,18 @@
 
     <Button
         android:id="@+id/crearcuenta"
-        android:layout_width="190dp"
-        android:layout_height="52dp"
+        android:layout_width="153dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="48dp"
         android:backgroundTint="#293C40"
         android:text="@string/crearcuenta"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mt_rpcontraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <ImageView
         android:id="@+id/imageView"
