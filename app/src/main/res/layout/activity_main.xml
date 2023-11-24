@@ -97,6 +97,7 @@
                         android:inputType="text"
                         android:padding="10dp"
                         android:shadowRadius="20"
+                        android:textColor="@color/black"
                         android:textColorHint="#A9A9A9"
                         android:textSize="16sp" />
 
@@ -155,6 +156,7 @@
                         android:padding="10dp"
                         android:password="true"
                         android:shadowRadius="20"
+                        android:textColor="@color/black"
                         android:textColorHint="#A9A9A9"
                         android:textSize="16sp" />
 
@@ -168,6 +170,8 @@
                     android:backgroundTint="#293C40"
                     android:onClick="logIn"
                     android:text="@string/buttonLogin"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
                     app:cornerRadius="12dp" />
 
                 <TextView
@@ -185,6 +189,8 @@
                     android:backgroundTint="#293C40"
                     android:onClick="Register"
                     android:text="@string/buttonRegister"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
                     app:cornerRadius="12dp" />
 
             </LinearLayout>
